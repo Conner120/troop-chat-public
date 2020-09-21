@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2020-03-14T04:06:15Z"
+  name: scouthubj
+  namespace: default
+  resourceVersion: "13581"
+  selfLink: /api/v1/namespaces/default/services/scouthubj
+  uid: 9b91e6ff-e116-4e61-af2c-0774b5449bcd
+spec:
+  clusterIP: 10.96.195.46
+  externalTrafficPolicy: Cluster
+  ports:
+    - nodePort: 3000
+      port: 8080
+      protocol: TCP
+      targetPort: 3000
+  selector:
+    app: auth
+  sessionAffinity: None
+  type: LoadBalancer
+status:
+  loadBalancer: {}

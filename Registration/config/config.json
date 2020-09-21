@@ -1,0 +1,10 @@
+{
+    "development": {
+        "username": "sh_db",
+        "password": "password",
+        "database": "sh_db",
+        "port": 32768,
+        "host": "10.0.0.10",
+        "dialect": "postgres"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "development": {
+        "username": "sh_db",
+        "password": "password",
+        "database": "sh_db",
+        "port": 32777,
+        "host": "docker-desktop",
+        "dialect": "postgres"
+    }
+}

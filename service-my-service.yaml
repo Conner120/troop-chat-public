@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2020-03-18T21:43:02Z"
+  labels:
+    app: foo
+  name: my-service
+  namespace: default
+  resourceVersion: "566575"
+  selfLink: /api/v1/namespaces/default/services/my-service
+  uid: 352fb12f-ecde-4651-b60c-56383913fd21
+spec:
+  clusterIP: 10.100.229.168
+  externalTrafficPolicy: Cluster
+  ports:
+    - nodePort: 3000
+      port: 3000
+      protocol: TCP
+      targetPort: 3000
+  selector:
+    app: foo
+  sessionAffinity: None
+  type: LoadBalancer
+status:
+  loadBalancer: {}
