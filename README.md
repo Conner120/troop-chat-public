@@ -1,4 +1,4 @@
-# Scout-Hub
+# Scout-Hub moved from private
 ## Repository for the docker images for the scout hub  web app
 * auth
 * resigtration
