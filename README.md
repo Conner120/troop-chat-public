@@ -1,4 +1,4 @@
-# Scout-Hub moved from private
+# troop chatmoved from private
 ## Repository for the docker images for the scout hub  web app
 * auth
 * resigtration
